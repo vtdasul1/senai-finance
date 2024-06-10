@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/tabletb.png);
+    background-color: cornflowerblue;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+h1{
+    font-size: 26px;
+}
+.botao{
+    background: transparent;
+    color:black;
+    border: 1px solid rgb(92, 89, 89);
+    border-radius: 50px;
+}
+button{
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+button:active{
+    opacity: 0.8s;
+}
+
+form, .content{
+   color: black;
+   width: 300px; 
+   margin: 0 auto;
+   text-align: center;
+   padding: 20px;
+}
+input{  
+    border: none;
+}
+
+input,button{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: -webkit-fill-available;
+}
+  
+.rec{
+    background: transparent;
+    border: none;
+    color: black;
+}
+
+.rotated{
+    transform: rotate(90deg);
+}
+.custos,th, td {
+    width: 100px;
+    border: 1px solid;
+    padding: 3px;
+    margin-bottom: 10px;
+}
